@@ -1,0 +1,29 @@
+.t{
+    font-size: 30px;
+    font-weight: bold;
+}
+.s{
+    font-size: 20px;
+    font-weight: bold;
+}
+.r{
+    font-weight: normal;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a a a a";
+}
+.contenido{
+    background-color: rgb(240, 134, 102);
+    text-align: center;
+    padding: 5px;
+    border: 2px solid;
+}
+.grid a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
