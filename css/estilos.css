@@ -17,7 +17,15 @@
     line-height: 3px;
 }
 .ev{}
-.circle{}
+.circle{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
