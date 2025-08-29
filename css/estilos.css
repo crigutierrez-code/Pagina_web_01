@@ -1,3 +1,9 @@
+*{
+    margin: 1;
+    padding: 1;
+    border: 0;
+    font-weight: normal;
+}
 .t{
     font-size: 30px;
     font-weight: bold;
@@ -8,7 +14,10 @@
 }
 .r{
     font-weight: normal;
+    line-height: 3px;
 }
+.ev{}
+.circle{}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,8 +26,8 @@
 .contenido{
     background-color: rgb(240, 134, 102);
     text-align: center;
-    padding: 5px;
-    border: 2px solid;
+    padding: 6px;
+    border: 3px solid;
 }
 .grid a{
     text-decoration: none;
