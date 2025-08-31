@@ -1,12 +1,19 @@
 *{
-    margin: 1;
-    padding: 1;
-    border: 0;
     font-weight: normal;
+    padding: auto;
+    
 }
+/*.T{ si se decar usar despues le faltan arreglos
+    position: sticky;
+    top: 0;         
+    background: white;
+}
+*/
 .t{
     font-size: 30px;
     font-weight: bold;
+    padding-top: 60px; 
+    margin-top: 120px;
 }
 .s{
     font-size: 20px;
@@ -28,14 +35,19 @@
 }
 .grid{
     display: grid;
+    grid-area: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "a a a a";
 }
 .contenido{
     background-color: rgb(240, 134, 102);
+    column-rule-color: black ;
     text-align: center;
-    padding: 6px;
+    padding: 10px;
+    width: 95%;
     border: 3px solid;
+
+
 }
 .grid a{
     text-decoration: none;
@@ -43,4 +55,16 @@
     font-weight: bold;
     border-right: 2px solid;
     border-left: 2px solid;
+}
+.mc {
+    width: 100%;
+    position: fixed;  
+    display: block;
+    align-items: center;       
+    background: white;        
+    padding: 20px;
+    max-width: auto;           
+    margin-top: 0px;
+    top: 0cm; 
+             
 }
