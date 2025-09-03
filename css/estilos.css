@@ -3,156 +3,92 @@
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* Fuente general */
 }
 
-/* Barra fija superior */
 .mc {
     width: 100%;
-    /* Ocupa todo el ancho de la pantalla */
     position: fixed;
-    /* Siempre visible (no se mueve al hacer scroll) */
     top: 0;
-    /* Pegada a la parte superior */
     background: #1e1e2f;
-    /* Color gris oscuro elegante */
+
 }
 
-/* Título principal */
 .T {
     color: #f4f4f4;
-    /* Texto claro */
     text-align: center;
-    /* Centrado horizontal */
     font-size: 40px;
-    /* Tamaño grande */
     font-weight: bold;
-    /* Negrita */
 }
 
-/* Contenedor del menú principal */
 .navbar {
     display: flex;
-    /* Usa Flexbox para organizar los elementos */
     justify-content: center;
-    /* Centra los enlaces en la barra */
     gap: 85px;
-    /* Espaciado entre enlaces */
     padding-top: 10px;
-    /* Espacio arriba */
     padding-bottom: 10px;
-    /* Espacio abajo */
 }
 
-/* Estilo de los enlaces del menú */
 .navbar a {
     text-decoration: none;
-    /* Quita el subrayado */
     color: #f4f4f4;
-    /* Texto claro */
     font-weight: bold;
-    /* Negrita */
     font-size: 20px;
-    /* Texto grande */
     border-radius: 8px;
-    /* Bordes redondeados */
     padding-top: 10px;
-    /* Relleno superior */
     padding-bottom: 10px;
-    /* Relleno inferior */
     padding-left: 15px;
-    /* Relleno izquierdo */
     padding-right: 15px;
-    /* Relleno derecho */
     background: #0078ff;
-    /* Fondo azul */
 }
 
-/* Estado "activo" para resaltar la página actual */
 .navbar a.active {
     background: #ffd700;
-    /* Fondo dorado */
     color: #1e1e2f;
-    /* Texto oscuro (contraste con dorado) */
 }
 
-/* Subtítulo principal de cada sección debajo del menú */
 .subtnavbar {
     margin-top: 120px;
-    /* Baja el contenido para no quedar debajo de la barra fija */
     padding: 15px;
-    /* Espaciado interno */
     font-weight: bold;
-    /* Negrita */
 }
 
-/* Subtítulos secundarios */
 .subt {
     padding: 15px;
-    /* Espaciado interno */
     font-weight: bold;
-    /* Negrita */
 }
 
-/* Subinformación (subtítulos más pequeños o destacados dentro del texto) */
 .subinfo {
     padding: 5px;
-    /* Espaciado interno */
     font-weight: bold;
-    /* Negrita */
     font-size: 23px;
-    /* Tamaño mayor */
     margin-left: 28px;
-    /* Desplazado a la derecha */
     color: #0c266d;
-    /* Azul oscuro elegante */
 }
 
-/* Texto principal */
 .texto {
     margin-left: 3.5%;
-    /* Margen izquierdo (no pegado al borde) */
     margin-right: 3.5%;
-    /* Margen derecho */
     line-height: 1.5;
-    /* Espaciado entre líneas (legible) */
     font-size: 19px;
-    /* Tamaño cómodo de lectura */
     color: #333;
-    /* Gris oscuro (menos agresivo que negro puro) */
 }
 
-/* Pie de página fijo */
 .foot {
     width: 100%;
-    /* Ocupa todo el ancho */
     text-align: center;
-    /* Texto centrado */
     position: fixed;
-    /* Siempre visible aunque se haga scroll */
     bottom: 0;
-    /* Pegado al borde inferior */
     background: #2c2c2c;
-    /* Fondo gris oscuro */
     color: #f4f4f4;
-    /* Texto claro */
     padding: 5px;
-    /* Espacio interno vertical */
     font-size: 15px;
-    /* Texto pequeño */
 }
 
 .img{
     justify-items: center;
-    /*centrar la imagen*/ 
     width: 300px;   
-    /* ancho fijo */
     height: auto;   
-    /* mantiene proporción */
     display: block; 
-    /* permite centrar con margin */
     margin: 0 auto; 
-    /* centra horizontalmente */
     border-radius: 10px;
-    /* bordes circulares*/
 }
