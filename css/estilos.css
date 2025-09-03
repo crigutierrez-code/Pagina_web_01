@@ -141,3 +141,16 @@
     font-size: 15px;
     /* Texto pequeño */
 }
+
+.img{
+    justify-items: center;
+    /*centrar la imagen*/ 
+    width: 300px;   
+    /* ancho fijo */
+    height: auto;   
+    /* mantiene proporción */
+    display: block; 
+    /* permite centrar con margin */
+    margin: 0 auto; 
+    /* centra horizontalmente */
+}
